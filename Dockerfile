@@ -6,7 +6,6 @@ RUN apt-get update -q && apt-get install -qy \
     texlive-base \
     texlive-latex-extra
     texlive-generic-extra \
-    python-pygments gnuplot \
     make git \
     && rm -rf /var/lib/apt/lists/*
 
